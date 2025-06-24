@@ -1,0 +1,21 @@
+username,caption,tanggal_posting,tagged_users,likes
+user1,"Liburan seru! #travel",2023-01-01,"user2;user3",100
+user2,"Makan malam #food",2023-01-02,"user1",80
+user3,"Pemandangan indah #nature",2023-01-03,"user1",60
+user4,"Sarapan sehat #healthy",2023-01-04,"user5",40
+user5,"Ngopi di kafe #coffee",2023-01-05,"user4;user1",55
+user6,"Jalan sore #relax",2023-01-06,"user1;user2",30
+user7,"Resep baru #cooking",2023-01-07,"user8",70
+user8,"Senja di pantai #sunset",2023-01-08,"user7;user1",90
+user9,"Workout pagi #sport",2023-01-09,"user2",45
+user10,"Bersantai #weekend",2023-01-10,"user11",35
+user11,"Makan siang #hangout",2023-01-11,"user10;user1",65
+user12,"Liburan luar negeri #adventure",2023-01-12,"user13;user1",120
+user13,"Dessert manis #dessert",2023-01-13,"user12",50
+user14,"Belanja mingguan #shopping",2023-01-14,"user1",25
+user15,"Malam minggu #movie",2023-01-15,"user16;user1",85
+user16,"Sarapan roti #breakfast",2023-01-16,"user15",60
+user17,"Udara segar #morning",2023-01-17,"user1",40
+user18,"Olahraga baru #sport",2023-01-18,"user19;user1",55
+user19,"Makan malam keluarga #family",2023-01-19,"user18",75
+user20,"Akhir pekan di villa #weekend",2023-01-20,"user1",110

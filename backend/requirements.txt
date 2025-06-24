@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+networkx
+scikit-learn
+nltk
+vaderSentiment
+matplotlib
+wordcloud
+pyvis
+python-multipart 
