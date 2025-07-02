@@ -1,21 +1,27 @@
 username,caption,tanggal_posting,tagged_users,likes
-user1,"Liburan seru! #travel",2023-01-01,"user2;user3",100
-user2,"Makan malam #food",2023-01-02,"user1",80
-user3,"Pemandangan indah #nature",2023-01-03,"user1",60
-user4,"Sarapan sehat #healthy",2023-01-04,"user5",40
-user5,"Ngopi di kafe #coffee",2023-01-05,"user4;user1",55
-user6,"Jalan sore #relax",2023-01-06,"user1;user2",30
-user7,"Resep baru #cooking",2023-01-07,"user8",70
-user8,"Senja di pantai #sunset",2023-01-08,"user7;user1",90
-user9,"Workout pagi #sport",2023-01-09,"user2",45
-user10,"Bersantai #weekend",2023-01-10,"user11",35
-user11,"Makan siang #hangout",2023-01-11,"user10;user1",65
-user12,"Liburan luar negeri #adventure",2023-01-12,"user13;user1",120
-user13,"Dessert manis #dessert",2023-01-13,"user12",50
-user14,"Belanja mingguan #shopping",2023-01-14,"user1",25
-user15,"Malam minggu #movie",2023-01-15,"user16;user1",85
-user16,"Sarapan roti #breakfast",2023-01-16,"user15",60
-user17,"Udara segar #morning",2023-01-17,"user1",40
-user18,"Olahraga baru #sport",2023-01-18,"user19;user1",55
-user19,"Makan malam keluarga #family",2023-01-19,"user18",75
-user20,"Akhir pekan di villa #weekend",2023-01-20,"user1",110
+
+aktivis1,"Aksi demo menolak #tambangnikel di Raja Ampat! #SaveRajaAmpat",2024-06-01,"aktivis2;warga1",120
+aktivis2,"Kami bersama warga menolak penambangan nikel! #RajaAmpat",2024-06-01,"aktivis1;media1",110
+warga1,"Lingkungan kami terancam akibat #tambangnikel. #RajaAmpatButuhKeadilan",2024-06-02,"aktivis1;warga2",95
+warga2,"Air mulai tercemar, tolong hentikan tambang nikel di Raja Ampat!",2024-06-02,"warga1;aktivis3",80
+media1,"Liputan aksi demo penolakan tambang nikel di Raja Ampat hari ini.",2024-06-03,"aktivis2;media2",130
+media2,"Wawancara eksklusif dengan warga terdampak #tambangnikel",2024-06-03,"media1;warga3",90
+aktivis3,"Bersama kita kuat! #SaveRajaAmpat",2024-06-04,"warga2;aktivis4",100
+aktivis4,"Jangan biarkan alam Raja Ampat rusak karena tambang nikel.",2024-06-04,"aktivis3;warga4",85
+warga3,"Kami butuh dukungan untuk hentikan tambang nikel!",2024-06-05,"media2;warga4",70
+warga4,"Bersama aktivis, kami suarakan penolakan tambang nikel.",2024-06-05,"warga3;aktivis4",75
+pemerhati1,"Kerusakan lingkungan di Raja Ampat makin parah. #StopTambang",2024-06-06,"aktivis1;media3",60
+media3,"Fakta kerusakan akibat tambang nikel di Raja Ampat.",2024-06-06,"pemerhati1;media4",65
+media4,"Simak laporan investigasi tambang nikel di Raja Ampat.",2024-06-07,"media3;warga5",55
+warga5,"Kami ingin laut bersih, bukan tambang nikel!",2024-06-07,"media4;warga6",50
+warga6,"Dampak tambang nikel sudah terasa di kampung kami.",2024-06-08,"warga5;aktivis5",45
+aktivis5,"Ayo dukung petisi #SaveRajaAmpat dari tambang nikel.",2024-06-08,"warga6;aktivis6",90
+aktivis6,"Jangan diam! Suarakan penolakan tambang nikel.",2024-06-09,"aktivis5;warga7",80
+warga7,"Kami bersama aktivis menolak tambang nikel.",2024-06-09,"aktivis6;warga8",70
+warga8,"Lingkungan lestari tanpa tambang nikel!",2024-06-10,"warga7;media5",65
+media5,"Aksi solidaritas untuk Raja Ampat hari ini.",2024-06-10,"warga8;media6",60
+media6,"Dampak sosial tambang nikel di Raja Ampat.",2024-06-11,"media5;warga9",55
+warga9,"Kami ingin masa depan tanpa tambang nikel.",2024-06-11,"media6;warga10",50
+warga10,"Bersama kita bisa hentikan tambang nikel.",2024-06-12,"warga9;aktivis7",45
+aktivis7,"Terus suarakan #SaveRajaAmpat!",2024-06-12,"warga10;aktivis1",100
+aktivis1,"Jangan lelah berjuang untuk Raja Ampat!",2024-06-13,"aktivis7;warga1",110

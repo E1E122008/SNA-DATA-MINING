@@ -26,4 +26,4 @@ def analyze(df):
         'neutral': neu / total if total else 0
     }
     user_sentiment = sorted(sentiments, key=lambda x: x['score'], reverse=True)[:10]
-    return {'sentiment_stats': sentiment_stats, 'user_sentiment': user_sentiment} 
+    return {'sentiment_stats': sentiment_stats, 'user_sentiment': user_sentiment, 'all_sentiments': sentiments} 

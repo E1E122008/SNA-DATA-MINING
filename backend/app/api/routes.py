@@ -74,29 +74,30 @@ async def analyze_instagram_data(
     }
 
     sentiment_stats = sentiment_result.get('sentiment_stats', {})
+    # Ambil top user untuk setiap kategori dari seluruh data
+    all_sentiments = sentiment_result.get('all_sentiments', [])
+    top_positive_users = [s['user'] for s in sorted(all_sentiments, key=lambda x: -x['score']) if s['sentiment'] == 'positive'][:5]
+    top_neutral_users  = [s['user'] for s in sorted(all_sentiments, key=lambda x: -abs(x['score'])) if s['sentiment'] == 'neutral'][:5]
+    top_negative_users = [s['user'] for s in sorted(all_sentiments, key=lambda x: x['score']) if s['sentiment'] == 'negative'][:5]
+
     sentiment_data = {
         'positif': round(sentiment_stats.get('positive', 0) * 100),
         'netral': round(sentiment_stats.get('neutral', 0) * 100),
         'negatif': round(sentiment_stats.get('negative', 0) * 100),
-        'top_positive_users': [u['user'] for u in sentiment_result.get('user_sentiment', []) if u['sentiment'] == 'positive'][:5]
+        'top_positive_users': top_positive_users,
+        'top_neutral_users': top_neutral_users,
+        'top_negative_users': top_negative_users
     }
-
-    visualizations = {
-        'wordcloud_url': f"data:image/png;base64,{text_result['wordcloud_img']}" if 'wordcloud_img' in text_result else None
-    }
-
-    report_url = None  # Placeholder, bisa diisi jika ada
 
     network = {
         'graph_url': network_result.get('graph_url'),
-        'influencer': [i['user'] for i in network_result.get('influencers', [])[:5]]
+        'influencer': [i['user'] for i in network_result.get('influencers', [])[:5]],
+        'influencer_details': network_result.get('influencers', [])[:10]
     }
 
     return {
         'data_mining': data_mining,
         'tfidf': tfidf,
         'sentiment': sentiment_data,
-        'network': network,
-        'visualizations': visualizations,
-        'report_url': report_url
+        'network': network
     } 
